@@ -14,4 +14,8 @@ class Square {
     public void setA(int a) {
         this.a = a;
     }
+
+    double calculateSquareArea(Square square) {
+        return Math.pow(a, 2);
+    }
 }
